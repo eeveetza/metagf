@@ -1,0 +1,41 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+[project]
+authors = [{name = "Ivica Stevanovic", email = "eeveetza@example.com"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License (GPL)",
+  "Operating System :: OS Independent",
+  "Private :: Do Not Upload",
+]
+dependencies = [
+  "numpy",
+  "scipy",
+]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+name = "metagf"
+readme = "README.md"
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pytest-sugar",
+]
+doc = ["mkdocs-material"]
+dev = [
+  "black",
+  "isort",
+]
+
+
+[project.urls]
+Source = "https://github.com/eeveetza/metagf"
+Tracker = "https://github.com/eeveetza/metagf/issues"
+
+
+[tool.isort]
+profile = "black"
+known_third_party = ["numpy", "scipy"]
