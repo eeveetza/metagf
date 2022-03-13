@@ -1,3 +1,13 @@
 site_name: MetaGF
 theme:
   name: material
+plugins:
+  - search
+  - bibtex:
+      bib_file: "docs/refs.bib"
+markdown_extensions:
+  - footnotes
+
+
+# plugins
+# https://github.com/shyamd/mkdocs-bibtex

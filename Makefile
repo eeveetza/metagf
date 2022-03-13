@@ -20,6 +20,10 @@ install-dev: .venv ## installs for development (symlink, tools and testing)
 install-doc: .venv ## installs for documentation
 	pip install -e ".[doc]"
 
+.PHONY: docs
+docs: install-doc ## installs and serves docs
+	mkdocs serve
+
 .PHONY: format
 format: ## autoformats repo
 	autoflake --remove-all-unused-imports --recursive --remove-unused-variables --in-place src --exclude=__init__.py

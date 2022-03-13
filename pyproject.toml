@@ -24,7 +24,10 @@ test = [
   "pytest",
   "pytest-sugar",
 ]
-doc = ["mkdocs-material"]
+doc = [
+  "mkdocs-material",
+  "mkdocs-bibtex"
+]
 dev = [
   "black",
   "isort",
