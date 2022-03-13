@@ -28,6 +28,7 @@ doc = ["mkdocs-material"]
 dev = [
   "black",
   "isort",
+  "autoflake",
 ]
 
 

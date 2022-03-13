@@ -18,6 +18,12 @@ install-dev: .venv ## installs for development (symlink, tools and testing)
 	pip install -e ".[test,dev]"
 
 
+.PHONY: format
+format: ## autoformats repo
+	autoflake --remove-all-unused-imports --recursive --remove-unused-variables --in-place src --exclude=__init__.py
+	black src
+	isort src
+
 .PHONY: info
 info: ## displays info
 	pip list
