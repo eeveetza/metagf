@@ -14,9 +14,11 @@ venv: .venv ## creates virtualenv .venv and updates package managers
 
 .PHONY: install-dev
 install-dev: .venv ## installs for development (symlink, tools and testing)
-	# flit install --symlink
 	pip install -e ".[test,dev]"
 
+.PHONY: install-doc
+install-doc: .venv ## installs for documentation
+	pip install -e ".[doc]"
 
 .PHONY: format
 format: ## autoformats repo
