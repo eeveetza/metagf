@@ -1,5 +1,9 @@
 {
     "recommendations": [
+        "be5invis.toml",
         "ms-python.python",
+        "ms-python.vscode-pylance",
+        "yzhang.markdown-all-in-one",
+        "vscode-icons-team.vscode-icons",
     ]
 }
