@@ -9,6 +9,7 @@ nav:
   - reference/metagf/momi.md
   - reference/metagf/sommerfeld.md
   - reference/metagf/toms468.md
+  - demo.md
   - refs.md
 
 plugins:

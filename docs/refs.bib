@@ -1,27 +1,5 @@
-% This file was created with JabRef 2.10.
+% Please keep sorted alphabetically
 % Encoding: Cp1252
-
-
-@article {michalski2016efficient,
-title = "Efficient computation of Sommerfeld integral tails methods and algorithms",
-journal = "Journal of Electromagnetic Waves and Applications",
-parent_itemid = "infobike://tandf/jew",
-publishercode ="tandf",
-year = "2016",
-volume = "30",
-number = "3",
-publicationDate ="2016-02-11T00:00:00",
-pages = "281-317",
-itemtype = "ARTICLE",
-issn = "0920-5071",
-eissn = "1569-3937",
-url = "https://www.ingentaconnect.com/content/tandf/jew/2016/00000030/00000003/art00001",
-doi = "doi:10.1080/09205071.2015.1129915",
-keyword = "Sommerfeld integral, extrapolation, Green function, double-exponential rule",
-author = "Michalski, Krzysztof A. and Mosig, Juan R.",
-abstract = "A review is presented of the most effective methods for the computation of Sommerfeld integral tails. Such integrals, which are often oscillatory, singular and divergent, commonly arise in layered media Green functions. The mathematical foundations of various pertinent methods are discussed
-in detail and their performance is illustrated by relevant numerical examples. The associated algorithms are given in pseudocode for their easy computer implementation.",
-}
 
 @article{golubovic2010fast,
   author   = {Nićiforović, Ružica Golubović and Polimeridis, Athanasios G. and Mosig, Juan R.},
@@ -36,4 +14,59 @@ in detail and their performance is illustrated by relevant numerical examples. T
   doi      = {10.1109/TAP.2010.2096187},
   issn     = {1558-2221},
   month    = {Feb}
+}
+
+
+@phdthesis{melcon1998thesis,
+  title     = {Applications of the integral equation technique to the  analysis and synthesis of multilayered printed shielded  microwave circuits and cavity backed antennas},
+  author    = {Álvarez Melcón, Alejandro},
+  school = {EPFL},
+  address   = {Lausanne},
+  pages     = {443},
+  year      = {1998},
+  url       = {http://infoscience.epfl.ch/record/32378},
+  doi       = {10.5075/epfl-thesis-1901}
+}
+
+@article{michalski2016efficient,
+  title           = {Efficient computation of Sommerfeld integral tails methods and algorithms},
+  journal         = {Journal of Electromagnetic Waves and Applications},
+  parent_itemid   = {infobike://tandf/jew},
+  publishercode   = {tandf},
+  year            = {2016},
+  volume          = {30},
+  number          = {3},
+  publicationdate = {2016-02-11T00:00:00},
+  pages           = {281-317},
+  itemtype        = {ARTICLE},
+  issn            = {0920-5071},
+  eissn           = {1569-3937},
+  url             = {https://www.ingentaconnect.com/content/tandf/jew/2016/00000030/00000003/art00001},
+  doi             = {doi:10.1080/09205071.2015.1129915},
+  keyword         = {Sommerfeld integral, extrapolation, Green function, double-exponential rule},
+  author          = {Michalski, Krzysztof A. and Mosig, Juan R.},
+  abstract        = {A review is presented of the most effective methods for the computation of Sommerfeld integral tails. Such integrals, which are often oscillatory, singular and divergent, commonly arise in layered media Green functions. The mathematical foundations of various pertinent methods are discussed in detail and their performance is illustrated by relevant numerical examples. The associated algorithms are given in pseudocode for their easy computer implementation.}
+}
+
+@article{patterson1968optimum,
+  title   = {The optimum addition of points to quadrature formulae},
+  author  = {Patterson, Thomas NL},
+  journal = {Mathematics of Computation},
+  volume  = {22},
+  number  = {104},
+  pages   = {847--856},
+  year    = {1968}
+}
+
+@phdthesis{stevanovic2005thesis,
+  title       = {Modeling challenges in computational electromagnetics  large planar multilayered structures and finite-thickness  irises},
+  author      = {Stevanovi{\'c}, Ivica},
+  institution = {ITOP},
+  school   = {EPFL},
+  address     = {Lausanne},
+  pages       = {198},
+  year        = {2005},
+  abstract    = {Abstract Printed multilayered media with metallizations  embedded between dielectric layers are one of the most  successful technologies for manufacturing planar structures  with a good performanceto-price ratio. These structures  range from PC board circuits, through cavity backed  antennas and antenna arrays used in satellite  communications, to waveguide filters. The approach most  commonly used to model and analyze the aforementioned  structures is the Integral Equation (IE) technique solved  with Method of Moments (MoM). Applying IE-MoM with  subsectional basis functions to electromagnetically large  structures is demanding in terms of both computer memory  allocation and time needed to solve the problem.  Computationally efficient techniques are thus needed to  accelerate the IE-MoM procedures and allow modeling of  large circuits and antennas on standard desktop PCs.  Subdomain Multilevel Approach (SMA) with Macro-Basis  Functions (MBF) is one of the acceleration techniques,  developed in our laboratory. Its application to modeling  large antenna arrays has already proven to be very  efficient. However, this technique can be improved,  especially when MoM matrix filling time is concerned. This  thesis proposes an improvement of the SMA using equivalent  moments in computing the interactions between macro-basis  functions. It shows that, without significant loss of  accuracy, we obtain a two-fold gain in computational time  for structures with the number of unknowns of the order  104. In structures operating at higher frequencies (thin  films in millimeter and submillimeter wave bands) or with  self supporting metallic plates, the thickness of metallic  screens must be taken into account. Multilayered structures  with apertures (holes) in thick conducting screens can be  accurately modeled using the equivalence theorem and  magnetic currents introduced at both aperture interfaces.  This approach, however, doubles the number of unknowns as  compared to that one of the zero-thickness case. Moreover,  the thick aperture problem asks for the computation of  cavity Green's functions, which is a difficult and  time-consuming task for apertures of arbitrary  cross-sections. This thesis addresses the problem of  scattering by apertures in thick conducting screens by  introducing an approximate and computationally efficient  formulation. This formulation consists in treating the  thick aperture as an infinitely thin one and in using the  correction term in integral equation kernel that accounts  for the screen thickness. The number of unknowns remains  the same as in the zero-thickness screens and evaluation of  complicated cavity Green's functions is obviated, which  yields computationally efficient routines. The technique is  successfully applied to self-supporting aperture antennas  and thick irises within multilayered rectangular waveguides  giving good results for apertures whose thickness is  smaller than their lateral dimensions.},
+  url         = {http://infoscience.epfl.ch/record/33680},
+  doi         = {10.5075/epfl-thesis-3212}
 }
