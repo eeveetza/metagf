@@ -3,10 +3,27 @@ theme:
   name: material
   palette: 
     primary: grey
+nav:
+  - reference/metagf/intde.md
+  - reference/metagf/momi.md
+  - reference/metagf/sommerfeld.md
+  - reference/metagf/toms468.md
+
 plugins:
   - search
   - bibtex:
       bib_file: "docs/refs.bib"
+  - gen-files:
+      scripts:
+        - docs/gen_ref_pages.py
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: false
+      watch:
+        - src/metagf
 markdown_extensions:
   - footnotes
   - pymdownx.arithmatex:
@@ -20,3 +37,5 @@ extra_javascript:
 # plugins
 # https://github.com/shyamd/mkdocs-bibtex
 # https://squidfunk.github.io/mkdocs-material/reference/mathjax/
+# https://mkdocstrings.github.io/usage/
+# https://github.com/oprypin/mkdocs-gen-files

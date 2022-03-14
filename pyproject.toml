@@ -26,7 +26,9 @@ test = [
 ]
 doc = [
   "mkdocs-material",
-  "mkdocs-bibtex"
+  "mkdocs-bibtex",
+  "mkdocstrings[python]",
+  "mkdocs-gen-files",
 ]
 dev = [
   "black",
