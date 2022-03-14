@@ -4,10 +4,12 @@ theme:
   palette: 
     primary: grey
 nav:
+  - index.md
   - reference/metagf/intde.md
   - reference/metagf/momi.md
   - reference/metagf/sommerfeld.md
   - reference/metagf/toms468.md
+  - refs.md
 
 plugins:
   - search
