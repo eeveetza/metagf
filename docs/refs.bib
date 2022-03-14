@@ -1,6 +1,20 @@
 % Please keep sorted alphabetically
 % Encoding: Cp1252
 
+
+@phdthesis{crespo2007thesis,
+  title       = {Electromagnetic modelling of planar circuits in bounded  layered media},
+  author      = {Crespo Valero, Pedro},
+  institution = {ITOP},
+  school   = {EPFL},
+  address     = {Lausanne},
+  pages       = {186},
+  year        = {2007},
+  abstract    = {Printed circuits in bounded media encompass a wide range  of practical structures such as discontinuities in  waveguides, planar circuits embedded in shielded  multilayered media or even two-dimensional printed periodic  structures. The Electromagnetic (EM) modeling of printed  circuits in layered bounded media is performed via an  Integral Equation (IE) technique. Green's functions (GFs)  are specially defined to satisfy both the Boundary  Conditions (BCs) imposed by the layered media and by the  transverse boundary enclosing the entire structure.  Finally, a system of IEs on the equivalent sources can be  solved numerically by means of the Method of Moments (MoM).  Each of the problems enumerated above has already been  solved by other authors using IE-MoM techniques.  Nevertheless, our formulation introduces a unified approach  applicable to all the aforementioned problems. Due to the  symmetry presented by a bounded layered media, the GF  problem can be reduced into a two-dimensional transverse  boundary problem and a one-dimensional transmission line  problem in the normal direction. Both problems can be  treated independently. This thesis proposes and fully  develops an efficient technique that encompasses different  laterally bounded multilayered problems with a seamless  transition between them. The method is based on a modal  representation of the transverse boundary problem and on  the expansion of the equivalent surface currents by  zero-curl &amp; constant-charge Basis Functions (BFs). It  offers a unified and versatile approach that, on one hand  eliminates redundancy in the formulation and on the other  hand simplifies each particular problem to the evaluation  of constant coefficients or basic line integrals.  Analytical solutions can be found for the combination of  linear subsectional basis functions in rectangular and  circular Perfect Electric Conductor (PEC) boundaries as  well as for periodic lattices. This thesis then solves the  problem of transmission line model in the longitudinal  direction by proposing an efficient algorithm that  guarantees numerical stability under a variety of known  critical conditions where other already known formulations  fail. In addition, it introduces alternate equivalent  expressions of this formulation that allow new  interpretations of the problem. Due to its practical  interest, the method is applied for the EM modeling of  multilayered boxed printed circuits. This motivated the  implementation of a dedicated software tool for the  efficient analysis of these topologies including losses.  Extensive numerical experiments have been carried out to  assess the validity of the aforementioned theory and some  properties of test-structures (losses, mesh, etc).},
+  url         = {http://infoscience.epfl.ch/record/98530},
+  doi         = {10.5075/epfl-thesis-3746}
+}
+
 @article{golubovic2010fast,
   author   = {Nićiforović, Ružica Golubović and Polimeridis, Athanasios G. and Mosig, Juan R.},
   journal  = {IEEE Transactions on Antennas and Propagation},
@@ -16,6 +30,19 @@
   month    = {Feb}
 }
 
+
+@phdthesis{golubovic2011thesis,
+  title       = {Challenges in Computational Electromagnetics Analysis and  Optimization of Planar Multilayered Structures},
+  author      = {Golubovic, Ruzica},
+  institution = {IEL},
+  school      = {EPFL},
+  address     = {Lausanne},
+  pages       = {160},
+  year        = {2011},
+  abstract    = {To meet strict requirements of the information society  technologies, antennas and circuit elements are becoming  increasingly complex. Frequently, their electromagnetic  (EM) properties cannot be anymore expressed in closed-form  analytical expressions mainly because of the multitude of  irregular geometries found in actual devices. Therefore,  accurate and efficient (in terms of computational time and  memory) electromagnetic models coupled with the robust  optimization techniques, are needed in order to be able to  predict and optimize the behavior of the innovative  antennas in complex environments. The contribution of this  thesis consists in the development and improvement of  accurate electromagnetic modeling and optimization  algorithms for an ubiquitous class of antennas, the planar  printed antennas. The approach most commonly used to model  and analyze this type of structures is the Integral  Equation (IE) technique numerically solved using the Method  of Moments (MoM). From the computational point of view, the  main challenge is to develop techniques for efficient  numerical evaluation of spatial-domain Green's functions,  which are commonly expressed in terms of the well-known  Sommerfeld integrals (SIs), i.e., semi-infinite range  integrals with Bessel function kernels. Generally, the  analytical solution of the SIs is not available, and their  numerical evaluation is notoriously difficult and  time-consuming because the integrands are both oscillatory  and slowly decaying, and might possess singularities on  and/or near the integration path. Due to the key role that  SIs play in many EM problems, the development of fast and  accurate techniques for their evaluation is of paramount  relevance. This problem is studied in detail and several  efficient methods are developed. Finally, the applicability  of one of these methods, namely the Weighted Averages (WA)  technique, is extended to the challenging case appearing in  many practical EM problems: the evaluation of semi-infinite  integrals involving products of Bessel functions. However,  the development of effective analysis codes is only one  aspect. At least equally important is the availability of  reliable optimization techniques for an adequate design of  antennas. For that purpose, the Particle Swarm Optimization  (PSO) algorithm is introduced in the context of our  analysis codes. Moreover, the innovative hybrid version of  the PSO algorithm, called the Tournament Selection PSO, has  been proposed with the aim of even further improving  convergence performances of the classical PSO algorithm.  Detailed theoretical description of this socially inspired  evolutionary algorithm is given in the thesis. Finally, the  characteristics of both algorithms are compared throughout  several EM optimization problems.},
+  url         = {http://infoscience.epfl.ch/record/166929},
+  doi         = {10.5075/epfl-thesis-5122}
+}
 
 @phdthesis{melcon1998thesis,
   title     = {Applications of the integral equation technique to the  analysis and synthesis of multilayered printed shielded  microwave circuits and cavity backed antennas},
